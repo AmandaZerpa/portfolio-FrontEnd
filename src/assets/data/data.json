@@ -1,0 +1,36 @@
+{
+  "header": {
+    "logoAP": "/assets/logo.png",
+    "tituloPresentacion": "Hola soy Amanda Zerpa!",
+    "presentacion": "Soy Full Stack Developer Jr y aquí podrás contactarme o ver algunas de mis proyectos y experiencia.",
+    "imagenBanner": "/assets/Focused Working_Monochromatic.png",
+    "imagenAmanda": "/assets/Amanda.jpg"
+  },
+  "experiencias":[{
+      "cargo":"Violista en Orquesta Estudiantil de Buenos Aires",
+      "fecha":"2021- En curso",
+      "img":"/assets/logoOEBA.jpg"
+    },
+  {
+    "cargo":"Violista en Orquesta Latin Vox",
+      "fecha":"2018-2021",
+      "img":"/assets/logoLVM.png"
+  }],
+  "educacion":[{
+    "img":"/assets/logoDigitalHouse.png",
+    "titulo":"Programadora Web Full Stack",
+    "institucion":"Digital House",
+    "fecha":"2021- 2022"
+  },{
+    "img":"/assets/logoPiazzolla.png",
+    "titulo":"Técnico en Música Especialidad en Instrumento Viola",
+    "institucion":"Conservatorio Superior de Música Ástor Piazzolla",
+    "fecha":"2018- En Curso"
+  },{
+    "img":"/assets/logoJuanMontalvo.jpg",
+    "titulo":"Bachiller en Economía y Administración",
+    "institucion":"Liceo Juan Montalvo",
+    "fecha":"2018-2020"
+  }]
+}
+

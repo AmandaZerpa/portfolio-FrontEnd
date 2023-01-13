@@ -1,0 +1,28 @@
+<header class="container-fluid">
+  <div class="row">
+<div class="col-2">
+  <img [src]="miPortfolio.header.logoAP"  class=" img-fluid float-start logoAP" alt="">
+</div>
+<div class="col-6"></div>
+<div class="col-3">
+  <ul>
+    <li><a href=""><i class="fab fa-github fa-2x"></i></a></li>
+    <li><a href=""><i class="fab fa-linkedin fa-2x"></i></a></li>
+    <li><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+    <li><button class="login-button">Login</button></li>
+  </ul>
+</div>
+</div>
+<section class="section-one row">
+  <div class="section-one-div-one col-5">
+    <h1>{{miPortfolio.header.tituloPresentacion}}</h1>
+    <p>{{miPortfolio.header.presentacion}}</p>
+    <br>
+    <button>Contáctate <i class="fas fa-arrow-circle-right"></i></button>
+  </div>
+  <div class="col-6">
+    <img [src]="miPortfolio.header.imagenBanner" alt="">
+  </div>
+</section>
+  <img [src]="miPortfolio.header.imagenAmanda" class="imagenAmanda" alt="">
+</header>

@@ -1,3 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
 * {
   margin: 0;
   padding: 0;
@@ -58,13 +59,13 @@ header a:hover {
 }
 .section-one img {
   width: 70%;
-  margin: 0 30px;
+  margin-left: 130px;
 }
 .section-one-div-one {
   text-align: center;
   width: 40%;
   margin: 40px;
-  margin-right: 60px;
+  margin-left: 60px;
   font-size: 20px;
 }
 .section-one-div-one h1 {
@@ -101,7 +102,7 @@ header a:hover {
   z-index: 3;
   position: absolute;
   bottom: 30px;
-  margin-left: 200px;
+  margin-left: 230px;
 }
 /********SECTION 2***********/
 .section-two,
@@ -135,16 +136,28 @@ header a:hover {
 }
 .margen-imgs {
   margin-top: -20px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 .fila-section-two, .fila-section-three,
 .fila-section-five {
   align-items: center;
   margin-left: 40px;
   margin-bottom: 60px;
+  list-style: none;
+}
+.fila-section-two ul li, .fila-section-three ul li,
+.fila-section-five ul li {
+  list-style: none;
+  margin:10px;
+}
+.info-escuela{
+  margin-left:90px;
 }
 .texto-proyectos {
   margin-left: 100px;
+}
+#ul-tecnologias{
+  list-style:inside ;
 }
 .fila-section-five img {
   width: 65%;

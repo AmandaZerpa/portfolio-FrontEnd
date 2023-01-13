@@ -1,0 +1,14 @@
+<section class="section-two container-fluid">
+  <h2>Experiencia</h2>
+  <div class="vignette"></div>
+  <div class="vignette-two"></div>
+  <div *ngFor="let experiencia of experiencias" class="row fila-section-two">
+      <div class="col-6 texto-proyectos">
+          <h3>{{experiencia.cargo}}</h3>
+          <p>{{experiencia.fecha}}</p>
+      </div>
+      <div class="col-5">
+          <img [src]="experiencia.img"  class="margen-imgs" alt="">
+      </div>
+  </div>
+</section>
