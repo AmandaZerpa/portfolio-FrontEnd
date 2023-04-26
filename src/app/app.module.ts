@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import {FormsModule} from '@angular/forms';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { HardComponent } from './components/hard/hard.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component'
@@ -29,6 +30,7 @@ import { interceptorProvider } from './services/interceptor.service';
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     CommonModule
   ],
   providers: [
