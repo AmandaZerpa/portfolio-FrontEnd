@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
-import {FormsModule} from '@angular/forms';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { HardComponent } from './components/hard/hard.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component'
@@ -13,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
-import { interceptorProvider } from './services/interceptor.service';
+import { interceptorProvider } from "./services/interceptor-service";
 
 
 @NgModule({
@@ -29,14 +30,14 @@ import { interceptorProvider } from './services/interceptor.service';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
+    AppRoutingModule,
     FormsModule,
     CommonModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   providers: [
     interceptorProvider
-    // PortfolioService
   ],
   bootstrap: [AppComponent]
 })
