@@ -10,9 +10,6 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component'
 import { PortfolioService } from './services/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
-import { interceptorProvider } from './services/interceptor.service';
 
 
 @NgModule({
@@ -22,19 +19,14 @@ import { interceptorProvider } from './services/interceptor.service';
     ExperienciaComponent,
     EducacionComponent,
     HardComponent,
-    ProyectosComponent,
-    HomeComponent,
-    LoginComponent
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     CommonModule
   ],
-  providers: [
-    interceptorProvider
-    // PortfolioService
-  ],
+  providers: [PortfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

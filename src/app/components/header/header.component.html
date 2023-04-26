@@ -1,7 +1,7 @@
 <header class="container-fluid">
   <div class="row">
 <div class="col-2">
-  <!-- <img [src]="miPortfolio.header.logoAP"  class=" img-fluid float-start logoAP" alt=""> -->
+  <img [src]="miPortfolio.header.logoAP"  class=" img-fluid float-start logoAP" alt="">
 </div>
 <div class="col-6"></div>
 <div class="col-3">
@@ -9,21 +9,20 @@
     <li><a href=""><i class="fab fa-github fa-2x"></i></a></li>
     <li><a href=""><i class="fab fa-linkedin fa-2x"></i></a></li>
     <li><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
-    <li><button type="button" class="login-button" (click)="login()" *ngIf="!isLogged">Login</button></li>
-    <li><button type="button" class="login-button" (click)="onLogOut()" *ngIf="isLogged">Log Out</button></li>
+    <li><button class="login-button">Login</button></li>
   </ul>
 </div>
 </div>
 <section class="section-one row">
   <div class="section-one-div-one col-5">
-    <h1>Hola soy {{persona.nombre}} {{persona.apellido}}!</h1>
-    <p>{{persona.descripcion}}</p>
+    <h1>{{miPortfolio.header.tituloPresentacion}}</h1>
+    <p>{{miPortfolio.header.presentacion}}</p>
     <br>
     <button>Contáctate <i class="fas fa-arrow-circle-right"></i></button>
   </div>
   <div class="col-6">
-    <!-- <img [src]="miPortfolio.header.imagenBanner" alt=""> -->
+    <img [src]="miPortfolio.header.imagenBanner" alt="">
   </div>
 </section>
-  <img [src]="persona.img" class="imagenAmanda" alt="">
+  <img [src]="miPortfolio.header.imagenAmanda" class="imagenAmanda" alt="">
 </header>
