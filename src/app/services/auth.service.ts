@@ -11,7 +11,7 @@ import {NuevoUsuario} from '../model/nuevo-usuario';
 })
 
 export class AuthService{
-    authURL ='https://azportafolio-19a6e.web.app/auth/';
+    authURL ='https://azportafoliobackend.onrender.com/auth/';
 
     constructor(private httpClient: HttpClient){}
 

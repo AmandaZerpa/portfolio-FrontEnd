@@ -9,7 +9,7 @@ import { persona } from '../model/persona.model';
 })
 
 export class PersonaService {
-  URL = 'https://azportafolio-19a6e.web.app/personas/';
+  URL = 'https://azportafoliobackend.onrender.com/personas/';
 
   constructor(private http: HttpClient) { }
 
