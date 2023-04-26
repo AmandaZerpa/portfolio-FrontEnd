@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "portafolio-ap",
     "public": "./dist/portafolio-ap",
     "ignore": [
       "firebase.json",
