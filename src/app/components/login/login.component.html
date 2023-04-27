@@ -10,7 +10,7 @@
                 Por favor ingresar usuario y clave
               </p>
 
-              <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+              <form  method="post">
                 <div class="form-outline form-white mb-4">
                   <input
                     type="text"
@@ -39,7 +39,7 @@
                   <a class="text-white-50" href="#!">Forgot password?</a>
                 </p> -->
 
-                <button class="btn btn-outline-light btn-lg px-5" type="submit">
+                <button class="btn btn-outline-light btn-lg px-5" type="submit" (click)="onLogin()">
                   Login
                 </button>
               </form>
