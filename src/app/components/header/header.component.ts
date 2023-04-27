@@ -14,11 +14,9 @@ export class HeaderComponent implements OnInit {
   persona: persona = new persona("", "", "", "", "");
   isLogged = false;
   // miPortfolio:any;
-  constructor(public personaService: PersonaService, private router:Router, private tokenService: TokenService
-    /*private datosPortfolio:PortfolioService*/) { }
+  constructor(public personaService: PersonaService, private router:Router, private tokenService: TokenService) { }
 
-  ngOnInit(): void
-  {
+  ngOnInit(): void{
     this.personaService.getPersona().subscribe(data => { this.persona = data })
     if (this.tokenService.getToken()) {
       this.isLogged = true;
