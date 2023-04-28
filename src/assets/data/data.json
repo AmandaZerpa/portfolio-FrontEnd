@@ -6,50 +6,59 @@
     "imagenBanner": "/assets/Focused Working_Monochromatic.png",
     "imagenAmanda": "/assets/Amanda.jpg"
   },
-  "experiencias":[{
-      "cargo":"Violista en Orquesta Estudiantil de Buenos Aires",
-      "fecha":"2021- En curso",
-      "img":"/assets/logoOEBA.jpg"
+  "experiencias": [
+    {
+      "cargo": "Violista en Orquesta Estudiantil de Buenos Aires",
+      "fecha": "2021- En curso",
+      "img": "/assets/logoOEBA.jpg"
     },
-  {
-    "cargo":"Violista en Orquesta Latin Vox",
-      "fecha":"2018-2021",
-      "img":"/assets/logoLVM.png"
-  }],
-  "educacion":[{
-    "img":"/assets/logoDigitalHouse.png",
-    "titulo":"Programadora Web Full Stack",
-    "institucion":"Digital House",
-    "fecha":"2021- 2022"
-  },{
-    "img":"/assets/logoPiazzolla.png",
-    "titulo":"Técnico en Música Especialidad en Instrumento Viola",
-    "institucion":"Conservatorio Superior de Música Ástor Piazzolla",
-    "fecha":"2018- En Curso"
-  },{
-    "img":"/assets/logoJuanMontalvo.jpg",
-    "titulo":"Bachiller en Economía y Administración",
-    "institucion":"Liceo Juan Montalvo",
-    "fecha":"2018-2020"
-  }],
-  "proyectos":[{
-    "titulo":"Página Web de Portafolio",
-    "descripcion":"reación de mi portafolio como proyecto final de Argentina Programa #YoProgramo.",
-    "tecnologias":"HTML, CSS, Bootstrap, Angular, SpringBoot, Java, Firebase, Render, MySQL, Clever Cloud</li>",
-    "fecha":"Enero 2023",
-    "img":"/assets/paginaAP.JPG"
-  },{
-    "titulo":"Food Me New Relic Dashboard",
-    "descripcion":"Proyecto de Observabilidad de páginas web con New Relic. Creación de dashboard con métricas respecto a una página web de un restaurant.",
-    "tecnologias":"New Relic",
-    "fecha":"Julio 2022",
-    "img":"/assets/dashboardNewRelic.JPG"
-  },{
-    "titulo":"SK Libros Página Web de Librería",
-    "descripcion":"Proyecto final en grupo para el curso de programación web full stack de Digital House.",
-    "tecnologias":"JavaScript, NodeJS, ExpressJs, MySQL, EJS, CSS",
-    "fecha":"Enero 2022",
-    "img":"/assets/paginaSK.JPG"
-  }]
+    {
+      "cargo": "Violista en Orquesta Latin Vox",
+      "fecha": "2018-2021",
+      "img": "/assets/logoLVM.png"
+    }
+  ],
+  "educacion": [
+    {
+      "img": "/assets/logoDigitalHouse.png",
+      "titulo": "Programadora Web Full Stack",
+      "institucion": "Digital House",
+      "fecha": "2021- 2022"
+    },
+    {
+      "img": "/assets/logoPiazzolla.png",
+      "titulo": "Técnico en Música Especialidad en Instrumento Viola",
+      "institucion": "Conservatorio Superior de Música Ástor Piazzolla",
+      "fecha": "2018- En Curso"
+    },
+    {
+      "img": "/assets/logoJuanMontalvo.jpg",
+      "titulo": "Bachiller en Economía y Administración",
+      "institucion": "Liceo Juan Montalvo",
+      "fecha": "2018-2020"
+    }
+  ],
+  "proyectos": [
+    {
+      "titulo": "Página Web de Portafolio",
+      "descripcion": "reación de mi portafolio como proyecto final de Argentina Programa #YoProgramo.",
+      "tecnologias": "HTML, CSS, Bootstrap, Angular, SpringBoot, Java, Firebase, Render, MySQL, Clever Cloud</li>",
+      "fecha": "Enero 2023",
+      "img": "/assets/paginaAP.JPG"
+    },
+    {
+      "titulo": "Food Me New Relic Dashboard",
+      "descripcion": "Proyecto de Observabilidad de páginas web con New Relic. Creación de dashboard con métricas respecto a una página web de un restaurant.",
+      "tecnologias": "New Relic",
+      "fecha": "Julio 2022",
+      "img": "/assets/dashboardNewRelic.JPG"
+    },
+    {
+      "titulo": "SK Libros Página Web de Librería",
+      "descripcion": "Proyecto final en grupo para el curso de programación web full stack de Digital House.",
+      "tecnologias": "JavaScript, NodeJS, ExpressJs, MySQL, EJS, CSS",
+      "fecha": "Enero 2022",
+      "img": "/assets/paginaSK.JPG"
+    }
+  ]
 }
-
