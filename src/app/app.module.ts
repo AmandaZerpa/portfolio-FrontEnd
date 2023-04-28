@@ -37,7 +37,8 @@ import { interceptorProvider } from "./services/interceptor-service";
     HttpClientModule
   ],
   providers: [
-    interceptorProvider
+    interceptorProvider,
+    PortfolioService
   ],
   bootstrap: [AppComponent]
 })

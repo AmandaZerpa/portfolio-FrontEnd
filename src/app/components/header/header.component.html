@@ -6,9 +6,8 @@
 <div class="col-6"></div>
 <div class="col-3">
   <ul>
-    <li><a href=""><i class="fab fa-github fa-2x"></i></a></li>
-    <li><a href=""><i class="fab fa-linkedin fa-2x"></i></a></li>
-    <li><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+    <li><a href="https://github.com/AmandaZerpa"><i class="fab fa-github fa-2x"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/amanda-zerpa-musician-programmer/"><i class="fab fa-linkedin fa-2x"></i></a></li>
     <li><button type="button" class="login-button" (click)="login()" *ngIf="!isLogged">Login</button></li>
     <li><button type="button" class="login-button" (click)="onLogOut()" *ngIf="isLogged">Log Out</button></li>
   </ul>
@@ -16,8 +15,8 @@
 </div>
 <section class="section-one row">
   <div class="section-one-div-one col-5">
-    <h1>Hola soy {{persona.nombre}} {{persona.apellido}}!</h1>
-    <p>{{persona.descripcion}}</p>
+    <h1>{{miPortfolio.tituloPresentacion}}</h1>
+    <p>{{miPortfolio.presentacion}}</p>
     <br>
     <button>Contáctate <i class="fas fa-arrow-circle-right"></i></button>
   </div>
@@ -25,5 +24,5 @@
     <img src="/assets/Focused Working_Monochromatic.png" alt="">
   </div>
 </section>
-  <img [src]="persona.img" class="imagenAmanda" alt="">
+  <img src="/assets/Amanda.jpg" class="imagenAmanda" alt="">
 </header>

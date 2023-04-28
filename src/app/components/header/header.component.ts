@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { persona } from 'src/app/model/persona.model';
 import { PersonaService } from 'src/app/services/persona.service';
 import { TokenService } from 'src/app/services/token.service';
-// import { PortfolioService } from 'src/app/services/portfolio.service';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-header',
@@ -13,8 +13,8 @@ import { TokenService } from 'src/app/services/token.service';
 export class HeaderComponent implements OnInit {
   persona: persona = new persona("", "", "", "", "");
   isLogged = false;
-  // miPortfolio:any;
-  constructor(public personaService: PersonaService, private router:Router, private tokenService: TokenService) { }
+  miPortfolio:any;
+  constructor(public personaService: PersonaService, private router:Router, private tokenService: TokenService, private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void{
     this.personaService.getPersona().subscribe(data => { this.persona = data })
@@ -23,10 +23,10 @@ export class HeaderComponent implements OnInit {
     } else {
       this.isLogged = false;
     }
-    // this.datosPortfolio.obtenerDatos().subscribe(data =>{
-    //   console.log(data)
-    //   this.miPortfolio = data;
-    // });
+     this.datosPortfolio.obtenerDatos().subscribe(data =>{
+     console.log(data)
+     this.miPortfolio = data.header;
+    });
   }
 
   onLogOut(): void
